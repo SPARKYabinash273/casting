@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "202088001235",
+    "firebase_url": "https://jsrr-cms.firebaseio.com",
+    "project_id": "jsrr-cms",
+    "storage_bucket": "jsrr-cms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202088001235:android:7b7f609eb8f38ee75dee26",
+        "android_client_info": {
+          "package_name": "com.jsn.jsrrcms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202088001235-9mle5avhdh9d4unatkqmn0v26aaa1t4o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jsn.jsrrcms",
+            "certificate_hash": "745b872a84b3a2ab2e33a196464b1364370ba111"
+          }
+        },
+        {
+          "client_id": "202088001235-ph4en68a9a5r2efrn5n8iqjqh04s5e28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDf0MlhE9LDCsL88fJJZaDqe0P9M1YMDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202088001235-ph4en68a9a5r2efrn5n8iqjqh04s5e28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

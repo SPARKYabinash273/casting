@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front3"
+    tools:context=".driver">
+
+    <ScrollView
+        android:layout_width="391dp"
+        android:layout_height="783dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="391dp"
+            android:layout_height="783dp"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/hod"
+                android:layout_width="390dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/patua_one"
+                android:gravity="center"
+                android:text=" DRIVER INFO"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=""
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" ROUTE NO. 1"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="ROUTE : CHENGALPATTU"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" NAME : SATHISH"
+                android:textColor="#FFFFFF" />
+
+
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="CONTACT NO : 9124576985"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=""
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="ROUTE NO. 2"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" ROUTE : KANCHEEPURAM"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="NAME : KUMAR"
+                android:textColor="#FFFFFF" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" CONTACT N0 : 9854756987"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=""
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="ROUTE NO. 3"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="NAME : SARAVANAN"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="ROUTE : TAMBARAM"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" CONTACT NO : 9863214568"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=""
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" ROUTE NO. 4"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="ROUTE : ADAYAR"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="NAME : SENTHIL"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" CONTACT NO : 791245789"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=""
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="ROUTE NO. 5"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" ROUTE : KALPAKKAM"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="NAME : KUMAR"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="CONTACT NO : 8645795369"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=""
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="ROUTE NO. 6"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" ROUTE : CHROMPET"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="NAME : BABU"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="CONTACT NO. 6874598632"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

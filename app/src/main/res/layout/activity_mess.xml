@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mess"
+    android:background="@drawable/front3">
+
+    <ScrollView
+        android:layout_width="391dp"
+        android:layout_height="783dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="390dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/patua_one"
+                android:gravity="center"
+                android:text=" MESS MENU "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=""
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=""
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="390dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/patua_one"
+                android:gravity="center_vertical|left"
+                android:text=" MONDAY : "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   Morning : Idiaapam"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   Afternoon : Chicken with Rice"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="390dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/patua_one"
+                android:gravity="center_vertical|left"
+                android:text=" TUESDAY : "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   Morning : Pongal"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   Afternoon : Sambar Rice with Chappati"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="390dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/patua_one"
+                android:gravity="center_vertical|left"
+                android:text=" WEDNESDAY : "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   Morning : Bread"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   Afternoon : Biryani"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="390dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/patua_one"
+                android:gravity="center_vertical|left"
+                android:text=" THURSDAY : "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   Morning : Pongal"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   Afternoon : Fish with rice"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="390dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/patua_one"
+                android:gravity="center_vertical|left"
+                android:text=" FRIDAY : "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   Morning : Idly"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   Afternoon : Sambar Rice"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

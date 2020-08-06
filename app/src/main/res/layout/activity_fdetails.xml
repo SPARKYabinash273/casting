@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front3"
+    tools:context=".fdetails">
+
+    <ScrollView
+        android:layout_width="391dp"
+        android:layout_height="783dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="391dp"
+            android:layout_height="783dp"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/hod"
+                android:layout_width="390dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/patua_one"
+                android:gravity="center_vertical|left"
+                android:text=" Head Of the Department"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" Mr. Mohan Kumar"
+                android:textColor="#FFFFFF" />
+
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" Classes Handling :"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   III CSE A [Artificial Intelligence]"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   II CSE A  [C]"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" Contact : csehod@jeppiaarsrr.in"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=""
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/patua_one"
+                android:gravity="center_vertical|left"
+                android:text=" Assistant Professors :"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" Mrs.S.S.Suganya"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" Classes Handling :"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   III CSE A [COUNSILOR]"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   II CSE A"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" Contact : getsuganya@gmail.com"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" Mrs.D.Vetri Selvi"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" Classes Handling :"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   III CSE A"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   II CSE A [COUNSILOR]"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" Contact : vetri.raja.nila@gmail.com"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" Mrs.Mary Herin"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" Classes Handling :"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   III CSE A [Compiler Design]"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   II CSE A [COUNSILOR]"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" Mrs.Hani Mary Sheniha"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" Classes Handling :"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   III CSE A"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   II CSE A"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   I CSE A [COUNSILOR]"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" Mrs.Hani Mary Sheniha"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text=" Classes Handling :"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   III CSE A [Internet Programming]"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="391dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.39"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center_vertical|left"
+                android:text="                   II CSE A"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

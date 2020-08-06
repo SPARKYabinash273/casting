@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+
+        <item>@font/acme</item>
+        <item>@font/advent_pro_light</item>
+        <item>@font/anonymous_pro_bold_italic</item>
+        <item>@font/autour_one</item>
+        <item>@font/averia_gruesa_libre</item>
+        <item>@font/bungee_hairline</item>
+        <item>@font/carrois_gothic</item>
+        <item>@font/carter_one</item>
+        <item>@font/cinzel_decorative</item>
+        <item>@font/coustard</item>
+        <item>@font/fenix</item>
+        <item>@font/hammersmith_one</item>
+        <item>@font/julius_sans_one</item>
+        <item>@font/patua_one</item>
+        <item>@font/salsa</item>
+    </array>
+</resources>

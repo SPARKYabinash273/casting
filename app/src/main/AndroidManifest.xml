@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jsn.jsrrcms">
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/text_logo"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".bus5"></activity>
+        <activity android:name=".fdetails" />
+        <activity android:name=".notification" />
+        <activity android:name=".e_learning" />
+        <activity android:name=".download" />
+        <activity android:name=".time_table" />
+        <activity android:name=".add_student" />
+        <activity android:name=".upload" />
+        <activity android:name=".subject_list" />
+        <activity android:name=".select_roll_no" />
+        <activity android:name=".studentInfo" />
+        <activity android:name=".attendance" />
+        <activity android:name=".complaints" />
+        <activity android:name=".driver" />
+        <activity android:name=".about" />
+        <activity android:name=".placement" />
+        <activity android:name=".mess" />
+        <activity android:name=".contact" />
+        <activity android:name=".departments" />
+        <activity android:name=".campus" />
+        <activity android:name=".admission" />
+        <activity android:name=".bus1" />
+        <activity android:name=".bus_routes" />
+        <activity android:name=".reset_password" />
+        <activity android:name=".faculty" />
+        <activity android:name=".bus" />
+        <activity android:name=".student" />
+        <activity android:name=".general_info" />
+        <activity android:name=".student_login" />
+        <activity android:name=".FacultyLogin" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
